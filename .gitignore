@@ -1,0 +1,56 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# -------------------------
+# Docker
+# -------------------------
+# Ignore build and container artifacts
+*.pid
+*.seed
+*.pid.lock
+
+# -------------------------
+# PostgreSQL
+# -------------------------
+# Ignore Postgres data directories
+ny_taxi_postgres/
+pgdata/
+*.sql~
+
+# -------------------------
+# Data & dumps (large / derived)
+# -------------------------
+data/
+*.csv
+*.csv.gz
+*.parquet
+*.jsonl
+*.zip
+*.dump
+*.sql        # keep if you hand-write schema; otherwise ignore
+
+# -------------------------
+# OS-specific files
+# -------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
