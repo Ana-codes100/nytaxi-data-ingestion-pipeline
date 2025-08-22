@@ -44,6 +44,10 @@ data/
 *.dump
 *.sql        # keep if you hand-write schema; otherwise ignore
 
+# Local notes
+Zoomcamp 1.docx
+~$*
+
 # -------------------------
 # OS-specific files
 # -------------------------
